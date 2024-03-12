@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/myspa" mode="merge"/>
+    <filter root="/content/myspa" mode="merge"/>
+    <filter root="/content/dam/myspa" mode="merge">
+        <exclude pattern="/content/dam/myspa(/.*)?"/>
+        <include pattern="/content/dam/myspa/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/myspa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/myspa" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/myspa" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/myspa" mode="merge"/>
+    <filter root="/content/dam/myspa/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/myspa/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/myspa/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
