@@ -4,6 +4,9 @@ import { createFormInstance } from '@aemforms/af-core';
 import { FormContext } from '@aemforms/af-react-renderer';
 import {AuthoringUtils} from "@adobe/aem-spa-page-model-manager";
 
+// importing the default canvas theme css
+import '@aemforms/af-canvas-theme/dist/theme.css';
+
 // edit config
 const FormContainerEditConfig = {
   emptyLabel: 'Adaptive Form Container',
