@@ -8,4 +8,4 @@ const RadioGroupEditConfig = {
     return !props;
   },
 };
-export default MapTo('myspa/components/adaptiveForm/radiobutton')(RadioButtonGroup, RadioGroupEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/radiobutton')(RadioButtonGroup, RadioGroupEditConfig);

@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.myspa.core.filters;
+package com.myvanilaspa.core.filters;
 
 import java.io.IOException;
 import javax.servlet.Filter;

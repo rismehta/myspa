@@ -8,4 +8,4 @@ const DropDownEditConfig = {
     return !props;
   },
 };
-export default MapTo('myspa/components/adaptiveForm/dropdown')(DropDown, DropDownEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/dropdown')(DropDown, DropDownEditConfig);

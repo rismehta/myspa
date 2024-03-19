@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/myspa/clientlibs"/>
-    <filter root="/apps/myspa/components"/>
-    <filter root="/apps/myspa/i18n"/>
+    <filter root="/apps/myvanilaspa/clientlibs"/>
+    <filter root="/apps/myvanilaspa/components"/>
+    <filter root="/apps/myvanilaspa/i18n"/>
 
 </workspaceFilter>

@@ -28,5 +28,5 @@ const ExperienceFragmentVariationConfig = {
     }
 };
 
-MapTo('myspa/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
+MapTo('myvanilaspa/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
 

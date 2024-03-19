@@ -9,4 +9,4 @@ const PanelEditConfig = {
   },
 };
 
-export default MapTo('myspa/components/adaptiveForm/panelcontainer')(Panel, PanelEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/panelcontainer')(Panel, PanelEditConfig);

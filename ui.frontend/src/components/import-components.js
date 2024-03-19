@@ -62,25 +62,25 @@ const TitleV2 = withAsyncImport(() => import(`@adobe/aem-core-components-react-b
 const CarouselV1 = withAsyncImport(() => import(`@adobe/aem-core-components-react-spa/dist/container/carousel/v1/CarouselV1`));
 
 
-MapTo('myspa/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
-MapTo('myspa/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
-MapTo('myspa/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
+MapTo('myvanilaspa/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
+MapTo('myvanilaspa/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
+MapTo('myvanilaspa/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
 
-MapTo('myspa/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
-MapTo('myspa/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
-MapTo('myspa/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
-MapTo('myspa/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
-
-
-MapTo('myspa/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
-MapTo('myspa/components/navigation')(NavigationV1);
-MapTo('myspa/components/languagenavigation')(LanguageNavigationV1);
+MapTo('myvanilaspa/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
+MapTo('myvanilaspa/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
+MapTo('myvanilaspa/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
+MapTo('myvanilaspa/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
 
 
-MapTo('myspa/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
-MapTo('myspa/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
-MapTo('myspa/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
-MapTo('myspa/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
+MapTo('myvanilaspa/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
+MapTo('myvanilaspa/components/navigation')(NavigationV1);
+MapTo('myvanilaspa/components/languagenavigation')(LanguageNavigationV1);
+
+
+MapTo('myvanilaspa/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
+MapTo('myvanilaspa/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
+MapTo('myvanilaspa/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
+MapTo('myvanilaspa/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
 
 
 //lazy load of internal component (hello world)
@@ -98,4 +98,4 @@ const TextEditConfig = {
     }
 };
 
-MapTo('myspa/components/text')(LazyTextComponent, TextEditConfig);
+MapTo('myvanilaspa/components/text')(LazyTextComponent, TextEditConfig);

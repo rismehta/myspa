@@ -10,4 +10,4 @@ const TextFieldEditConfig = {
   },
 };
 
-export default MapTo('myspa/components/adaptiveForm/textinput')(TextField, TextFieldEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/textinput')(TextField, TextFieldEditConfig);

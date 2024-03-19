@@ -30,5 +30,5 @@ const ContainerConfig = {
 };
 
 
-MapTo('myspa/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
+MapTo('myvanilaspa/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
 

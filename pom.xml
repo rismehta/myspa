@@ -21,11 +21,11 @@
           
   
   
-  <groupId>com.myspa</groupId>
+  <groupId>com.myvanilaspa</groupId>
           
   
   
-  <artifactId>myspa</artifactId>
+  <artifactId>myvanilaspa</artifactId>
           
   
   
@@ -37,11 +37,11 @@
           
   
   
-  <name>My SPA</name>
+  <name>My Vanila SPA</name>
           
   
   
-  <description>My SPA</description>
+  <description>My Vanila SPA</description>
           
   
   
@@ -163,7 +163,7 @@
                     
     
     
-    <componentGroupName>My SPA</componentGroupName>
+    <componentGroupName>My Vanila SPA</componentGroupName>
                 
   
   

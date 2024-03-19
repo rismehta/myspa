@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/myspa" mode="merge"/>
-    <filter root="/content/myspa" mode="merge"/>
-    <filter root="/content/dam/myspa" mode="merge">
-        <exclude pattern="/content/dam/myspa(/.*)?"/>
-        <include pattern="/content/dam/myspa/jcr:content(/.*)?"/>
+    <filter root="/conf/myvanilaspa" mode="merge"/>
+    <filter root="/content/myvanilaspa" mode="merge"/>
+    <filter root="/content/dam/myvanilaspa" mode="merge">
+        <exclude pattern="/content/dam/myvanilaspa(/.*)?"/>
+        <include pattern="/content/dam/myvanilaspa/jcr:content(/.*)?"/>
     </filter>
-    <filter root="/content/dam/myspa/asset.jpg" mode="merge"/>
-    <filter root="/content/experience-fragments/myspa" mode="merge"/>
-    <filter root="/content/dam/formsanddocuments-themes/myspa" mode="merge"/>
-    <filter root="/content/dam/formsanddocuments-fdm/myspa" mode="merge"/>
-    <filter root="/content/dam/myspa/sample_logo.png" mode="merge"/>
-    <filter root="/content/dam/myspa/sample_terms.png" mode="merge"/>
-    <filter root="/content/dam/myspa/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/myvanilaspa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/myvanilaspa" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/myvanilaspa" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/myvanilaspa" mode="merge"/>
+    <filter root="/content/dam/myvanilaspa/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/myvanilaspa/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/myvanilaspa/wknd_logo.png" mode="merge"/>
 </workspaceFilter>

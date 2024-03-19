@@ -15,6 +15,6 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <workspaceFilter version="1.0">
-    <filter root="/apps/myspa-packages"/>
-    <filter root="/apps/myspa-vendor-packages"/>
+    <filter root="/apps/myvanilaspa-packages"/>
+    <filter root="/apps/myvanilaspa-vendor-packages"/>
 </workspaceFilter>

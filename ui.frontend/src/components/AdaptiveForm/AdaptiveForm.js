@@ -72,4 +72,4 @@ const AdaptiveFormContainer = (formJson) => {
   );
 }
 
-export default MapTo('myspa/components/adaptiveForm/formcontainer')(AdaptiveFormContainer, FormContainerEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/formcontainer')(AdaptiveFormContainer, FormContainerEditConfig);

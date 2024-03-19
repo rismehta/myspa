@@ -6,4 +6,4 @@ const ButtonEditConfig = {
     return !props;
   },
 };
-export default MapTo('myspa/components/adaptiveForm/button')(Button, ButtonEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/button')(Button, ButtonEditConfig);

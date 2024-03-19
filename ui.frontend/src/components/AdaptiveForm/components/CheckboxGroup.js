@@ -8,4 +8,4 @@ const CheckboxGroupEditConfig = {
     return !props;
   },
 };
-export default MapTo('myspa/components/adaptiveForm/checkboxgroup')(CheckBoxGroup, CheckboxGroupEditConfig);
+export default MapTo('myvanilaspa/components/adaptiveForm/checkboxgroup')(CheckBoxGroup, CheckboxGroupEditConfig);

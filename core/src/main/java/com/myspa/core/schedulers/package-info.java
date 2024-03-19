@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.myspa.core.schedulers;
+package com.myvanilaspa.core.schedulers;
 
 import org.osgi.annotation.versioning.Version;

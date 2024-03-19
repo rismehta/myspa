@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.myspa.core.models;
+package com.myvanilaspa.core.models;
 
 import org.osgi.annotation.versioning.Version;

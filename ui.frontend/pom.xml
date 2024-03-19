@@ -21,8 +21,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.myspa</groupId>
-        <artifactId>myspa</artifactId>
+        <groupId>com.myvanilaspa</groupId>
+        <artifactId>myvanilaspa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,9 +30,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>myspa.ui.frontend</artifactId>
+    <artifactId>myvanilaspa.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>My SPA - UI Frontend</name>
+    <name>My Vanila SPA - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

@@ -18,15 +18,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.myspa</groupId>
-        <artifactId>myspa</artifactId>
+        <groupId>com.myvanilaspa</groupId>
+        <artifactId>myvanilaspa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>myspa.it.tests</artifactId>
-    <name>My SPA - Integration Tests</name>
-    <description>Integration Tests for My SPA</description>
+    <artifactId>myvanilaspa.it.tests</artifactId>
+    <name>My Vanila SPA - Integration Tests</name>
+    <description>Integration Tests for My Vanila SPA</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
