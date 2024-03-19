@@ -1,4 +1,4 @@
-import Button from '@aemforms/af-react-vanilla-components';
+import {Button} from '@aemforms/af-react-vanilla-components';
 import { MapTo } from '@adobe/aem-react-editable-components';
 const ButtonEditConfig = {
   emptyLabel: 'Button',

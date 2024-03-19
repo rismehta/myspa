@@ -1,5 +1,5 @@
 import React from 'react';
-import Panel from '@aemforms/af-react-vanilla-components';
+import {Panel} from '@aemforms/af-react-vanilla-components';
 import { MapTo, ResponsiveGrid } from '@adobe/aem-react-editable-components';
 
 const PanelEditConfig = {

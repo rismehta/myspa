@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioButtonGroup from '@aemforms/af-react-vanilla-components';
+import {RadioButtonGroup} from '@aemforms/af-react-vanilla-components';
 import { MapTo } from '@adobe/aem-react-editable-components';
 
 const RadioGroupEditConfig = {

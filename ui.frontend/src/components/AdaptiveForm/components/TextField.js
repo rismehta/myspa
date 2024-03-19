@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapTo } from '@adobe/aem-react-editable-components';
-import TextField from '@aemforms/af-react-vanilla-components';
+import {TextField} from '@aemforms/af-react-vanilla-components';
 
 
 const TextFieldEditConfig = {
