@@ -25,6 +25,9 @@ import './AdaptiveForm/components/Panel';
 import './AdaptiveForm/components/TextField';
 import './AdaptiveForm/components/RadioButton';
 import './AdaptiveForm/components/CheckboxGroup';
+import './AdaptiveForm/components/DatePicker';
+import './AdaptiveForm/components/EmailInput';
+import './AdaptiveForm/components/NumberInput';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
